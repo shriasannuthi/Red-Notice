@@ -1,0 +1,200 @@
+
+body {
+    background-image: linear-gradient(to bottom, #f0f4f5, #daf4f3);
+    font-weight: bold;
+    font-family: 'Mate SC', serif;
+}
+.taskbar {
+    display: flex;
+    width:100vw;
+  
+}
+.taskbar button {
+    width: 1vw;
+    height: 4vh;
+}
+h1 {
+    margin-left:2vh;
+    margin-top: 5vh;
+
+}
+
+.taskbar input {
+    margin-left: 6vw;
+    height: 5vh;
+    margin-top: 6vh;
+    width: 33vw;
+    border: solid;
+    border-radius: 12px;
+}
+.alert {
+    margin-left: 5vw;
+    width: 6vw;
+    margin-top:2.3vh;
+    height: 12vh;
+}
+
+.taskbar button {
+    width: 8vh;
+    height: 6vh;
+    border: solid;
+    border-radius:10px;
+    margin-top: 6vh;
+    margin-left: 2vh;
+}
+.taskbar button img {
+    height: 4vh;
+    width: 2vw;
+    margin:2px;
+}
+
+.container {
+    display: flex;
+    margin:3vh auto;
+    width: 60vw;
+    flex-direction: column;
+}
+.container img {
+    width:15vw;
+    height:38vh;
+    border-radius: 50%;
+}
+.img1 {
+    border:solid;
+    float:left;
+    border-color: orange;
+    margin-right: 4vh;
+}
+.billu {
+    color: orange;
+}
+.img2 {
+    float:right;
+    border:solid;
+    border-color: orange;
+    margin-right: 4vh;
+}
+.img3{
+    float:left;
+    border:solid;
+    border-color: orange;
+    margin-right: 4vh;
+}
+
+.active {
+    position: absolute;
+    left: 15vh;
+}
+.t1 {
+    margin: 1vh;
+    list-style: none;
+}
+.t2 {
+    margin:1vh;
+    list-style: none;
+}
+.t3 {
+    margin:3vh;
+    list-style: none;
+}
+.ww1 {
+    background-color:rgb(14, 225, 14);
+    height: 28vh;
+    width: 25vw;
+    margin: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:solid;
+    border-bottom-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    border-color: green;
+    border-width: 1.1vh;
+}
+.ww2{
+    background-color:rgb(14, 225, 14);
+    height: 28vh;
+    width: 25vw;
+    margin: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:solid;
+    border-bottom-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    border-color:green;
+    border-width:1.1vh;
+}
+.ww3 {
+    background-color: rgb(14, 225, 14);
+    height: 28vh;
+    width: 25vw;
+    margin: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:solid;
+    border-bottom-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    border-color:green;
+    border-width:1.1vh;
+}
+.ww1 h4 {
+    font-size: 4vh;
+    margin:0;
+}
+.ww2 h4 {
+    margin:0;
+    font-size: 4vh;
+}
+.ww3 h4 {
+    margin: 0;
+    font-size: 4vh;
+}
+.below {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    background-color: orange;
+
+}
+.button {
+    width: 18vw;
+    height: 10vh;
+    border: solid;
+    border-radius: 30%;
+}
+.button3{
+    margin-top: 1vh;
+    border: solid;
+    border-radius: 2vh;
+    border-color: white;
+}
+.dot {
+    border-top: 8px dotted red;
+}
+.niche {
+    color: rgb(17, 24, 228);
+    border: solid;
+}
+
+@keyframes corona {
+    from {
+        transform: rotate(0deg);
+       
+    }
+    to {
+        transform: rotate(360deg);
+        
+    }
+}
